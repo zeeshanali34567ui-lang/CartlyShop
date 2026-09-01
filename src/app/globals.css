@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f8f9fa; /* standard bootstrap body bg */
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Utilities for standard ecommerce look */
+@layer utilities {
+  .container-custom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Hide Next.js Development Error Overlay (caused by browser extensions) */
+nextjs-portal {
+  display: none !important;
+}
+#nextjs-portal {
+  display: none !important;
+}
+[data-nextjs-toast] {
+  display: none !important;
+}
