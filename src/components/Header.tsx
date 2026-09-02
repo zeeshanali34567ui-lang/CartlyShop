@@ -29,7 +29,7 @@ export default function Header() {
             <span className="font-semibold text-[#3a3a3a]">FREE SHIPPING! All over Pakistan</span>
           </div>
           <div className="flex gap-4 items-center">
-             <span>+92-0300-1376364</span>
+             <span>+923106375837</span>
              <span>|</span>
              <span>info@cartly.com.pk</span>
           </div>

@@ -14,7 +14,7 @@ export default function Footer() {
             Cartly is your premium online shopping destination in Pakistan, offering the best quality products across multiple categories.
           </p>
           <div className="space-y-2">
-            <p><strong>Phone:</strong> +92-0300-1376364</p>
+            <p><strong>Phone:</strong> +923106375837</p>
             <p><strong>Email:</strong> info@cartly.com.pk</p>
           </div>
         </div>

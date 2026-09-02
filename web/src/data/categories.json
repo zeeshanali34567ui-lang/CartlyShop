@@ -1,5 +1,32 @@
 [
   {
+    "id": "food-supplement",
+    "name": "Food Supplement",
+    "slug": "food-supplement",
+    "url": "https://cartly.com.pk/product-category/food-supplement",
+    "seoTitle": "Food Supplement - Cartly",
+    "metaDescription": "Shop Food Supplement at Cartly",
+    "canonical": "https://cartly.com.pk/product-category/food-supplement"
+  },
+  {
+    "id": "health-beauty-products",
+    "name": "Health Beauty Products",
+    "slug": "health-beauty-products",
+    "url": "https://cartly.com.pk/product-category/health-beauty-products",
+    "seoTitle": "Health Beauty Products - Cartly",
+    "metaDescription": "Shop Health Beauty Products at Cartly",
+    "canonical": "https://cartly.com.pk/product-category/health-beauty-products"
+  },
+  {
+    "id": "delay-products",
+    "name": "Delay Products",
+    "slug": "delay-products",
+    "url": "https://cartly.com.pk/product-category/delay-products",
+    "seoTitle": "Delay Products - Cartly",
+    "metaDescription": "Shop Delay Products at Cartly",
+    "canonical": "https://cartly.com.pk/product-category/delay-products"
+  },
+  {
     "id": "women-fashion",
     "name": "Women Fashion",
     "slug": "women-fashion",
@@ -27,22 +54,13 @@
     "canonical": "https://cartly.com.pk/product-category/men-fashion"
   },
   {
-    "id": "health-beauty-products",
-    "name": "Health Beauty Products",
-    "slug": "health-beauty-products",
-    "url": "https://cartly.com.pk/product-category/health-beauty-products",
-    "seoTitle": "Health Beauty Products - Cartly",
-    "metaDescription": "Shop Health Beauty Products at Cartly",
-    "canonical": "https://cartly.com.pk/product-category/health-beauty-products"
-  },
-  {
-    "id": "food-supplement",
-    "name": "Food Supplement",
-    "slug": "food-supplement",
-    "url": "https://cartly.com.pk/product-category/food-supplement",
-    "seoTitle": "Food Supplement - Cartly",
-    "metaDescription": "Shop Food Supplement at Cartly",
-    "canonical": "https://cartly.com.pk/product-category/food-supplement"
+    "id": "weight-loss",
+    "name": "Weight Loss",
+    "slug": "weight-loss",
+    "url": "https://cartly.com.pk/product-category/weight-loss",
+    "seoTitle": "Weight Loss - Cartly",
+    "metaDescription": "Shop Weight Loss at Cartly",
+    "canonical": "https://cartly.com.pk/product-category/weight-loss"
   },
   {
     "id": "skin-care",
@@ -54,15 +72,6 @@
     "canonical": "https://cartly.com.pk/product-category/skin-care"
   },
   {
-    "id": "delay-products",
-    "name": "Delay Products",
-    "slug": "delay-products",
-    "url": "https://cartly.com.pk/product-category/delay-products",
-    "seoTitle": "Delay Products - Cartly",
-    "metaDescription": "Shop Delay Products at Cartly",
-    "canonical": "https://cartly.com.pk/product-category/delay-products"
-  },
-  {
     "id": "hair-care",
     "name": "Hair Care",
     "slug": "hair-care",
@@ -70,14 +79,5 @@
     "seoTitle": "Hair Care - Cartly",
     "metaDescription": "Shop Hair Care at Cartly",
     "canonical": "https://cartly.com.pk/product-category/hair-care"
-  },
-  {
-    "id": "weight-loss",
-    "name": "Weight Loss",
-    "slug": "weight-loss",
-    "url": "https://cartly.com.pk/product-category/weight-loss",
-    "seoTitle": "Weight Loss - Cartly",
-    "metaDescription": "Shop Weight Loss at Cartly",
-    "canonical": "https://cartly.com.pk/product-category/weight-loss"
   }
 ]
