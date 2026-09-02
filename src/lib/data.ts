@@ -1,6 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 
+export interface Review {
+  reviewer: string;
+  isVerified: boolean;
+  date: string;
+  comment: string;
+  stars: number;
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -12,9 +20,13 @@ export interface Product {
   stockStatus: string;
   shortDescription: string;
   description: string;
+  descriptionHtml?: string;
   images: string;
   category: string;
   tags: string;
+  ratingCount?: number;
+  ratingValue?: number;
+  reviews?: Review[];
   seoTitle: string;
   metaDescription: string;
   canonical: string;
@@ -56,6 +68,38 @@ export function getProducts(): Product[] {
 export function getProductBySlug(slug: string): Product | undefined {
   const products = getProducts();
   return products.find((p) => p.slug === slug);
+}
+
+export function getRelatedProducts(product: Product, limit: number = 8): Product[] {
+  const products = getProducts();
+  const currentCategory = product.category ? product.category.split(',')[0].trim() : '';
+  
+  // First priority: same primary category (excluding current product)
+  const sameCategory = products.filter(
+    (p) => p.slug !== product.slug && p.category && p.category.includes(currentCategory)
+  );
+
+  if (sameCategory.length >= limit) {
+    return sameCategory.slice(0, limit);
+  }
+
+  // Second priority: shared tags
+  const currentTags = product.tags ? product.tags.split(',').map(t => t.trim().toLowerCase()) : [];
+  const sameTags = products.filter(
+    (p) => p.slug !== product.slug && !sameCategory.some(sc => sc.slug === p.slug) && p.tags && currentTags.some(ct => p.tags.toLowerCase().includes(ct))
+  );
+
+  const combined = [...sameCategory, ...sameTags];
+  if (combined.length >= limit) {
+    return combined.slice(0, limit);
+  }
+
+  // Fill remainder with other products
+  const remaining = products.filter(
+    (p) => p.slug !== product.slug && !combined.some(c => c.slug === p.slug)
+  );
+
+  return [...combined, ...remaining].slice(0, limit);
 }
 
 export function getCategories(): Category[] {

@@ -1,7 +1,7 @@
 # Data Quality Report
-  
-- **Duplicate Products**: 0
-- **Missing Prices**: 1
-- **Missing Images**: 1
-- **Broken Links / 404s**: Tracked separately via failed_urls.json
-- **Total Products Parsed so far**: 457
+- **Total Products**: 1416
+- **Products with Authentic Images**: 1414
+- **Missing Images**: 2
+- **Missing Prices**: 2
+- **Unique Categories**: 9
+- **Unique Tags**: 0

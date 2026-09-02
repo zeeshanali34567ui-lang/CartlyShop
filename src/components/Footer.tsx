@@ -9,12 +9,14 @@ export default function Footer() {
       <div className="container-custom grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
         {/* About */}
         <div>
-          <h3 className="text-white text-lg font-bold mb-4 uppercase">About Cartly</h3>
+          <Link href="/" className="inline-block mb-4 hover:opacity-90 transition-opacity">
+            <img src="/brand/logo-dark.svg" alt="CARTLY" className="h-[42px] w-auto" />
+          </Link>
           <p className="mb-4 leading-relaxed">
             Cartly is your premium online shopping destination in Pakistan, offering the best quality products across multiple categories.
           </p>
           <div className="space-y-2">
-            <p><strong>Phone:</strong> +923106375837</p>
+            <p><strong>Phone:</strong> +92-0310-6375837</p>
             <p><strong>Email:</strong> info@cartly.com.pk</p>
           </div>
         </div>

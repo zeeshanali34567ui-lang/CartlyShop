@@ -3,7 +3,7 @@
 Based on analysis of `product.html` (e.g. `Shape Up Cream in Pakistan`), the Cartly product pages follow a unified WooCommerce/CodeIgniter-style single-product layout.
 
 ## 1. Header
-- Top bar with "FREE SHIPPING! All over Pakistan", contact number (`+923106375837`), and email (`info@cartly.com.pk`).
+- Top bar with "FREE SHIPPING! All over Pakistan", contact number (`+92-0310-6375837`), and email (`info@cartly.com.pk`).
 - Main navigation with logo, Search Bar (categories dropdown + text input), and WhatsApp CTA.
 - Main Menu (Home, Shop, How To Order, Contact Us, About Us, Shop by Category dropdown).
 
