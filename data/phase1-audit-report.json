@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-09-01T18:33:12.778Z",
+  "totalProducts": 1416,
+  "correctImagesCount": 1414,
+  "duplicateImageUrlsCount": 0,
+  "legitimateDuplicatesCount": 0,
+  "incorrectDuplicatesCount": 0,
+  "missingImagesCount": 2,
+  "brokenImagesCount": 0,
+  "testedSamplesCount": 100,
+  "verifiedSamplesCount": 100
+}
