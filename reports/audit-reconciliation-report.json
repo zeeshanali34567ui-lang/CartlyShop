@@ -1,0 +1,36 @@
+{
+  "products": {
+    "total": 1416,
+    "implemented": 1416,
+    "missing": 0,
+    "duplicate": 0,
+    "failed": 0
+  },
+  "categories": {
+    "expected": 9,
+    "implemented": 9
+  },
+  "tags": {
+    "expected": 4074,
+    "implemented": 4074
+  },
+  "images": {
+    "totalProductsWithImages": 1414,
+    "uniqueImageMappings": 0,
+    "legitimateDuplicates": 293854,
+    "incorrectMappings": 0,
+    "incorrectMappingsFixed": 0,
+    "missingImages": 2,
+    "brokenImages": 0
+  },
+  "content": {
+    "productImageMismatches": 0,
+    "priceMismatches": 2,
+    "slugMismatches": 0,
+    "categoryMismatches": 62
+  },
+  "whatsapp": {
+    "oldNumberOccurrences": 0,
+    "newWhatsApp": "+923106375837"
+  }
+}
